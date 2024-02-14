@@ -77,6 +77,8 @@
 }
 
 body {
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/nfondo.jpg);
+  background-size: 20%;
   margin: 0;
   font-family: var(--bs-body-font-family);
   font-size: var(--bs-body-font-size);
@@ -7832,12 +7834,12 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: #00a7c1;
+  background-color: #39455C;
 }
 
 .bg-dark {
   --bs-bg-opacity: 1;
-  background-color: #00a7c1;
+  background-color: #39455C;
 }
 
 .bg-black {
@@ -11287,7 +11289,7 @@ textarea.form-control-lg {
 }
 
 .vivalogo{
-  width: 15%;
+  width: 22%;
 }
 
 .halloween-moodle {
