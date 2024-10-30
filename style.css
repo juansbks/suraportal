@@ -8,6 +8,19 @@ body {
 
 .bg {
   animation:slide 3s ease-in-out infinite alternate;
+  background-image: url(assets/aesthetichalloween.png);
+  bottom:0;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+  z-index:-1;
+}
+
+
+/*.bg {
+  animation:slide 3s ease-in-out infinite alternate;
   background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
   bottom:0;
   left:-50%;
@@ -25,7 +38,7 @@ body {
 
 .bg3 {
   animation-duration:5s;
-}
+}*/
 
 .content {
   background-color:rgba(255,255,255,.8);
@@ -11745,28 +11758,6 @@ margin-left: 2%;
    width:60px;
     height:60px;
     border-radius:150px;
-}
-
-
-.bg {
-  animation:slide 3s ease-in-out infinite alternate;
-  background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
-  bottom:0;
-  left:-50%;
-  opacity:.5;
-  position:fixed;
-  right:-50%;
-  top:0;
-  z-index:-10000;
-}
-
-.bg2 {
-  animation-direction:alternate-reverse;
-  animation-duration:4s;
-}
-
-.bg3 {
-  animation-duration:5s;
 }
 
 @keyframes slide {
