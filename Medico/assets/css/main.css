@@ -2603,7 +2603,7 @@ section,
     50%{transform:translateX(150px);}
     80%{transform: translateX(0);}
 }
-	
+/**fghfgh
 .tpl-snow > div{position:fixed;-webkit-animation:ease-in infinite normal;-moz-animation:ease-in infinite normal;animation:ease-in infinite normal;}	
 
 .tpl-snow > div{z-index:9999999999999;width:10px;height:10px;-moz-border-radius:50%;-webkit-border-radius:50%;border-radius:50%;background-color:#fff;-webkit-animation-name:nieve,horiz;-moz-animation-name:nieve,horiz;animation-name:nieve,horiz;}
@@ -2665,3 +2665,4 @@ section,
 @media(max-width:800px){
 	.tpl-snow > div:nth-of-type(36) ~ *{display:none;}
 }
+**/
